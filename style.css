@@ -103,7 +103,7 @@ nav ul a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* height:600px ; */
+  
 }
 
 .feat_image{
@@ -111,7 +111,7 @@ nav ul a{
   grid-template-columns: repeat(2,1fr);
   gap: 15px;
   width: 50%;
-  /* height: 600px; */
+  
 
 }
 .feat_image>img{
@@ -130,3 +130,45 @@ font-size:1.5rem;
 font-style: normal;
 font-weight: 500;
 }
+/* Responsiveness of feature */
+@media screen and (max-width:576px) {
+  .feat{
+      flex-direction: column;
+      margin: 50px;
+}
+.feat_image{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+  width: 100%;
+  
+  }
+.feat_desc{
+  
+  width:100%;
+  text-align: center;
+}
+
+
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+  .feat{
+    flex-direction: column;
+    margin: 100px;
+}
+.feat_image{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  width: 100%;
+
+}
+
+.feat_desc{
+  
+  width:100%;
+  text-align: center;
+  margin-top: 20px;
+}
+}
+  
