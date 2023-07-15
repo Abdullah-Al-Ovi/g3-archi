@@ -20,10 +20,9 @@ nav>ul{
 }
 nav li{
 list-style: none;
-margin-right:30px;
+margin-left:30px;
 color: var(--dark-02, #424242);
 text-align: center;
-font-family: Work Sans;
 font-size: 1rem;
 font-weight: 500;
 line-height: 26px; 
@@ -58,5 +57,42 @@ nav ul a{
   background: #FF900E;
   font-size: 1rem;
   font-weight: 600;
+  border: 0px;
+  cursor: pointer;
+  color: #fff;
+}
+/* Responsive banner */
+@media screen and (max-width:576px)  {
+  header{
+    padding: 10px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav>ul{
+    margin-left: 0;
+    padding: 0;
+  }
+  nav ul li {
+   margin: 0 10px 0 10px;
+  }
+  .ban_info{
+    height: 485px;
+  }
+}
+/* Medium device */
+@media  screen and (min-width:577px) and (max-width:992px) {
+  header{
+    padding: 30px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav ul{
+    padding: 0;
+  }
+  nav ul li{
+    margin: 0 10px 0 10px;
+  }
 }
 
