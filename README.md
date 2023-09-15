@@ -10,5 +10,6 @@
         - The system calculates and displays the total credit hours of the selected courses in real-time.
         - The system calculates and displays the total credit hours of the selected courses in real-time.
         - Clear feedback is provided to users when they reach or exceed the credit hour limit.
+### Discussion on the management of state in my assignment project:  
 
 
