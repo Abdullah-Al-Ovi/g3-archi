@@ -1,15 +1,15 @@
 ### Features:    
- 1. Course Selection:
-    - Users can browse and select from a variety of available courses.
-    - Once a course is selected, it becomes unavailable to the user to prevent again selecting.  
-  2. User-friendly Interface: 
-     - The user interface is intuitive and responsive.
-     - Making it easy for users to navigate and interact with the platform.    
-  3. Credit Hour Management:
-     - The system calculates and displays the total credit hours of the selected courses.
-     - The system calculates and displays the remaining credit hours.  
-     - The system calculates and displays the total price of the selected courses.
-     - Showing alert when user exceeds the credit hour limit or intends to select a single course more than once.  
+    1. Course Selection:
+       - Users can browse and select from a variety of available courses.
+       - Once a course is selected, it becomes unavailable to the user to prevent again selecting.  
+    2. User-friendly Interface: 
+       - The user interface is intuitive and responsive.
+       - Making it easy for users to navigate and interact with the platform.    
+    3. Credit Hour Management:
+       - The system calculates and displays the total credit hours of the selected courses.
+       - The system calculates and displays the remaining credit hours.  
+       - The system calculates and displays the total price of the selected courses.
+       - Showing alert when user exceeds the credit hour limit or intends to select a single course more than once.  
         
 ### Discussion on management of state in my assignment project:  
     1. First useState hook is used to show all the courses with details in display.  
