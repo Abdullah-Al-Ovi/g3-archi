@@ -10,9 +10,9 @@
         - Making it easy for users to navigate and interact with the platform.  
         
    **3. Credit Hour Management:**
-      - The system calculates and displays the total credit hours of the selected courses.
-      - The system calculates and displays the total credit hours of the selected courses.
-      - Showing alertt when user exceeds the credit hour limit.  
+        - The system calculates and displays the total credit hours of the selected courses.
+        - The system calculates and displays the total credit hours of the selected courses.
+        - Showing alertt when user exceeds the credit hour limit.  
         
 ### Discussion on management of state in my assignment project:  
     1. First useState hook is used to show all the courses with details in display.  
