@@ -15,8 +15,7 @@
     1. First useState hook is used to show all the courses with details in display.  
     2. Second useState hook is used to hold all the selected courses which is sent as a props to Cart component.  
        In the cart only the selected courses' titles are shown.
-    3. Third useState hook is used to hold total credit which is used to ensure that one course can not be slelcted more 
- than once.  
+    3. Third useState hook is used to hold total credit which is used to ensure that one course can not be slelcted more than once.  
        Then it is sent to Cart component as a props where it is used to show the total credits on selected course.  
     4. Fourth useState hook is used to hold remaining credit.  
        As one user can not take courses more than 20 credit hours in total.  
